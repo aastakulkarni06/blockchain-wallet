@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  background-color: #0f172a;
+  color: #f8fafc;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.wallet-card {
+  background: #1e293b;
+  border-radius: 12px;
+  padding: 24px;
+  width: 360px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.title {
+  text-align: center;
+  margin-top: 0;
+  color: #38bdf8;
+}
+
+.btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: #1d4ed8;
+}
+
+.info-box {
+  background: #0f172a;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.input-field {
+  width: 93%;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 6px;
+  border: 1px solid #334155;
+  background: #0f172a;
+  color: white;
+}
